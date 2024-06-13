@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML sitem</title>
+
+    <style>
+        .divOzellik{
+            width: 100%;
+            height: 200px;
+            background-color:antiquewhite ;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .divOzellik2{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(138, 167, 224);
+        }
+    </style>
+</head>
+<body>
+    <table border ="1">
+        <tr>
+            <th colspan ="3">Procuct</th>
+        </tr> 
+        <tr>
+            <th>No</th>
+            <th>P.Name</th>
+            <th>P.Count</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Pen</td>
+            <td rowspan ="3">50</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Book</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Dust</td>
+        </tr>
+    </table>
+
+    <div class="divOzellik">
+        <h3>WEB siteme hoşgeldiniz</h3>
+        <p>Bu bir örnek içeriktir</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam delectus laudantium deleniti quasi,
+             magni illo at facilis nisi ad quisquam hic quae, exercitationem esse nam maxime similique saepe. Est!</p>
+
+    </div>
+    <div class="divOzellik2">
+        <form>
+            Adınız:  <input type="text" placeholder="İsminiz"/>
+            <input type="password" placeholder="Şifreniz">
+            <input type="email" placeholder="email adresiniz"><br>
+            kitap okumak<input type="checkbox" id="kitapCheckbox"><br>
+            spor yapmak <input type="checkbox"><br> <br>
+            kadın <input type="radio" name="cinsiyetRadio" cheched =true><br>
+            erkek <input type="radio" name="cinsiyetRadio"><br>
+             <input type="file"> <br><br>
+             İÇECEKLER <br><br>
+             İçecek seçiniz:
+             <select >
+                <br> <br>
+                <option value="Çay">Çay</option>
+                <option value="Limonata">Lİmonata</option>
+                <option value="Kahve">Kahve</option>
+             </select><br><br>
+             <textarea name="mesajInput" id="mesajAlanı" cols="30" rows="10"></textarea><br>
+             <input type="submit">
+             <input type="reset" value="Temizle"><br>
+            
+         </form>
+    </div>
+
+
+    
+
+</body>
+</html>
